@@ -1,0 +1,8 @@
+Changes
+README
+MANIFEST
+Makefile.PL
+GD.pm
+test.pl
+examples/svg_gd_simple_1.pl
+test/01-loadsvggd.pl

@@ -1,0 +1,4 @@
+Revision history for Perl extension SVG.
+
+0.01 Friday 06 November
+	-Added SVG::GD to allow GD users to output SVG for simple GD drawings (RO)
