@@ -1,12 +1,12 @@
-=pod
+package SVG::GD;
 
 =head1 Name: SVG::GD
 
-=head1 Version 0.07
+=head1 Version 0.08
 
 =cut
 
-$VERSION = 0.07;
+$VERSION = 0.08;
 
 =head1 Author: Ronan Oger 
 
@@ -85,12 +85,10 @@ BEGIN {
 #	*SVG::HGD::Polygon::transform =\&GD::Polygon::transform;
 #	*SVG::HGD::Polygon::scale =\&GD::Polygon::scale;
 
-
 	*GD::Font:: = *SVG::GD::Font::;
 	*GD::Image:: = *SVG::GD::Image::;
 }	
 
-package SVG::GD;
 
 use strict;
 use SVG;
