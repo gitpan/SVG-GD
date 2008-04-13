@@ -6,7 +6,7 @@ package SVG::GD;
 
 =cut
 
-$VERSION = 0.09;
+$VERSION = 0.10;
 
 =head1 Author: Ronan Oger 
 
