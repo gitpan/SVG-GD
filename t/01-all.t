@@ -44,9 +44,9 @@ ok($dwg->line(180,20,70,170,$dwg->colorAllocate(25,10,175)),"line and colorAlloc
 ok(my $pngout =  $dwg->png,"png out");
 ok(my $wbmpout =  $dwg->wbmp($col3),"wbmp out");
 ok(my $svgout = $dwg->svg,"svg out");
-my $pngfile = '/tmp/out.'.rand(100000).'.png';
-my $wbmpfile = '/tmp/out.'.rand(1000000).'.wbmp';
-my $svgfile= '/tmp/out.'.rand(1000000).'.svg';
+my $pngfile = 't/out.'.rand(100000).'.png';
+my $wbmpfile = 't/out.'.rand(1000000).'.wbmp';
+my $svgfile= 't/out.'.rand(1000000).'.svg';
 
 if (-e $pngfile) {unlink $pngfile}  
 if (-e $wbmpfile) {unlink $wbmpfile}  
