@@ -1,5 +1,14 @@
 Revision history for Perl extension SVG.
 
+0.12 14 Apr 2008
+	- Improved POD
+	- added no strict refs
+
+0.11 13 Apr 2008
+	- Improved POD
+	- Updated tests
+	- Added license file
+
 0.08 12 Apr 2008
 	- Improved POD
 	- Updated tests

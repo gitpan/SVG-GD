@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                SVG-GD
-version:             0.11
+version:             0.12
 abstract:            ~
 license:             perl
 author:              
@@ -10,6 +10,9 @@ distribution_type:   module
 requires:     
     GD:                            0
     SVG::Parser:                   0.9
+    Test::More:                    0
+    Test::Pod:                     0
+    Test::Pod::Coverage:           0
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.3.html
     version: 1.3

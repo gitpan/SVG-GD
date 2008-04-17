@@ -8,8 +8,11 @@ use Config;
 WriteMakefile(
     NAME              => 'SVG::GD',
     VERSION_FROM      => 'lib/SVG/GD.pm', # finds $VERSION
-    PREREQ_PM         => { SVG::Parser=>0.9,
-			  GD=>0},
+    PREREQ_PM         => { 'SVG::Parser'=>0.9,
+			   'Test::More' => 0,
+			   'Test::Pod' => 0,
+			   'Test::Pod::Coverage' => 0,
+			   'GD'=>0},
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (
 	#ABSTRACT_FROM  => 'lib/SVG/GD.pm', # retrieve abstract from module

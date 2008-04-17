@@ -1,12 +1,15 @@
 package SVG::GD;
+$VERSION = 0.12;
+no  strict 'refs';
+use SVG;
+use Exporter;
+
+=pod 
 
 =head1 Name: SVG::GD
 
-=head1 Version 0.08
+=head1 Version 0.12
 
-=cut
-
-$VERSION = 0.11;
 
 =head1 Author: Ronan Oger 
 
@@ -89,12 +92,6 @@ BEGIN {
 	*GD::Image:: = *SVG::GD::Image::;
 }	
 
-
-use strict;
-use SVG;
-
-use Exporter;
-
 use vars qw/$VERSION @ISA @EXPORT @EXPORT_OK %EXPORT_TAGS/;
 
 our $tinyfontsize='5';
@@ -144,32 +141,73 @@ our $fontindex = 0;
 		GD_CMP_TRUECOLOR / ]
 );
 
+=head2 gdTinyFint
+
+returns SVG::GD::Font::Tiny
+
+=cut
+
 #font control
+
+
 sub SVG::GD::gdTinyFont {
 	return SVG::GD::Font::Tiny();
 }
 
 #font control
 
+=head2 gdSmallFont
+
+returns SVG::GD::Font::Small();
+
+=cut
+
+
 sub SVG::GD::gdSmallFont {
 	return SVG::GD::Font::Small();
 }
+
+=head2 gdMediumBoldFont
+
+returns SVG::GD::Font::Bold();
+
+=cut
 
 #font control
 sub SVG::GD::gdMediumBoldFont {
 	return SVG::GD::Font::MediumBold();
 }
 
+=head2 gdLargeFont
+
+Returns SVG::GD::Font::Large()
+
+=cut
+
 #font control
 sub SVG::GD::gdLargeFont {
 	return SVG::GD::Font::Large();
 }
+
+
+=head2 gdGiantFont
+
+Returns SVG::GD::Font::Giant()
+
+=cut
+
 
 #font control
 
 sub SVG::GD::gdGiantFont {
 	return SVG::GD::Font::Giant();
 }
+
+=head2 gdBrushed
+
+Does nothing at this time
+
+=cut
 
 sub SVG::GD::gdBrushed { 
 	return '';
