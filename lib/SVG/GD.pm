@@ -1,14 +1,15 @@
 package SVG::GD;
-$VERSION = 0.13;
+$VERSION = 0.14;
 no  strict 'refs';
 use SVG;
 use Exporter;
+use warnings;
 
 =pod 
 
 =head1 Name: SVG::GD
 
-=head1 Version 0.13
+=head1 Version 0.14
 
 
 =head1 Author: Ronan Oger 
@@ -223,6 +224,7 @@ package SVG::GD::Font;
 
 use strict;
 use Data::Dumper;
+use warnings;
 
 sub registerFont($) {
 	my $size = shift;
@@ -298,6 +300,9 @@ sub getSVGstyle {
 #
 
 package SVG::GD::Image;
+
+use warnings;
+use strict;
 
 #constructor
 sub SVG::GD::Image::new {
