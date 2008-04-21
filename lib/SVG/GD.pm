@@ -1,5 +1,5 @@
 package SVG::GD;
-$VERSION = 0.12;
+$VERSION = 0.13;
 no  strict 'refs';
 use SVG;
 use Exporter;
@@ -8,7 +8,7 @@ use Exporter;
 
 =head1 Name: SVG::GD
 
-=head1 Version 0.12
+=head1 Version 0.13
 
 
 =head1 Author: Ronan Oger 
