@@ -1,11 +1,11 @@
 --- #YAML:1.0
 name:                SVG-GD
-version:             0.15
+version:             0.16
 abstract:            ~
 license:             perl
 author:              
     - Ronan Oger<ronan@cpan.org>
-generated_by:        ExtUtils::MakeMaker version 6.44
+generated_by:        ExtUtils::MakeMaker version 6.42
 distribution_type:   module
 requires:     
     GD:                            0

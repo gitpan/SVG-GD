@@ -1,6 +1,6 @@
 package SVG::GD;
 
-$VERSION = 0.15;
+$VERSION = 0.16;
 
 no  strict 'refs';
 
