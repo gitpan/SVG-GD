@@ -1,6 +1,6 @@
 package SVG::GD;
 
-$VERSION = 0.16;
+$VERSION = 0.17;
 
 no  strict 'refs';
 
@@ -116,7 +116,6 @@ our $fontindex = 0;
 	gdStyledBrushed
 	gdTiled
 	gdTransparent
-	gdTinyFont
 	gdSmallFont
 	gdMediumBoldFont
 	gdLargeFont
@@ -145,7 +144,7 @@ our $fontindex = 0;
 		GD_CMP_TRUECOLOR / ]
 );
 
-=head2 gdTinyFint
+=head2 gdTinyFont
 
 returns SVG::GD::Font::Tiny
 
