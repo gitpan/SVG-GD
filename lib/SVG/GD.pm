@@ -1,6 +1,6 @@
 package SVG::GD;
 
-$VERSION = 0.18;
+$VERSION = 0.19;
 
 no  strict 'refs';
 
@@ -12,8 +12,7 @@ use warnings;
 
 =head1 Name: SVG::GD
 
-=head1 Version 0.18
-
+=head1 Version 0.19
 
 =head1 Author: Ronan Oger 
 
