@@ -1,6 +1,6 @@
 package SVG::GD;
 
-$VERSION = 0.19;
+$VERSION = '0.20';
 
 no  strict 'refs';
 
@@ -12,7 +12,7 @@ use warnings;
 
 =head1 Name: SVG::GD
 
-=head1 Version 0.19
+=head1 Version 0.20
 
 =head1 Author: Ronan Oger 
 
@@ -725,7 +725,7 @@ sub SVG::GD::Image::wbmp ($$) {
 =head2 gif
 
 Return the binary image in GIF format
-Note that some versions of SVGGD do not support this method
+Note that some versions of SVG::GD do not support this method
 
 =cut
 
